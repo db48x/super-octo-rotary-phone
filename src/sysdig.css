@@ -1,0 +1,31 @@
+h1, th {
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+h1 {
+    font-size: large;
+}
+button {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+table {
+    min-width: 100%;
+}
+tbody tr {
+    background-color: white;
+}
+tbody tr:hover {
+    background-color: #eef;
+}
+th, td {
+    text-align: left;
+    padding: 3px .5em
+}
+th {
+    border-bottom: thin solid black;
+}
+td {
+    white-space: nowrap;
+}
