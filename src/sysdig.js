@@ -35,8 +35,16 @@ var model = { events: {},
                      }
            },
     controller = { refresh_button: document.getElementById("refresh_button"),
+                   timer: null,
                    init: function controller_init() {
-                           this.refresh_button.addEventListener("click", this.fetch.bind(this));
+                           let self = this;
+                           this.refresh_button.addEventListener("click",
+                                                                function () {
+                                                                  self.timer.reset();
+                                                                  self.fetch();
+                                                                });
+                           this.timer = RepeatingQuickTimer(this.fetch.bind(this), 30*QuickTimer.ONE_SECOND),
+                           this.fetch();
                          },
                    fetch: function controller_fetch() {
                             let req = new XMLHttpRequest();

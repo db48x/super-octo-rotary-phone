@@ -26,28 +26,28 @@
 
 
 
-    "severity": "target", 
+    "severity": "minor", 
 
 
 
 
 
 
-    "status": "fixed", 
+    "status": "assigned", 
 
 
 
 
 
 
-    "summary": "controller fetches new data every 30 seconds", 
+    "summary": "It doesn't appear to actually clear the event list", 
 
 
 
 
 
 
-    "time": "Wed, 01 Mar 2017 06:37:59 +0000"
+    "time": "Wed, 01 Mar 2017 10:00:46 +0000"
 
 
 
