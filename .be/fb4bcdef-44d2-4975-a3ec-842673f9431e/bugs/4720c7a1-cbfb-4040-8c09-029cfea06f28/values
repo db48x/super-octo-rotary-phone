@@ -1,0 +1,57 @@
+{
+
+
+
+
+
+
+    "assigned": "Daniel Brooks <db48x@db48x.net>", 
+
+
+
+
+
+
+    "creator": "Daniel Brooks <db48x@db48x.net>", 
+
+
+
+
+
+
+    "reporter": "Daniel Brooks <db48x@db48x.net>", 
+
+
+
+
+
+
+    "severity": "critical", 
+
+
+
+
+
+
+    "status": "fixed", 
+
+
+
+
+
+
+    "summary": "handle attributes when creating html elements", 
+
+
+
+
+
+
+    "time": "Wed, 01 Mar 2017 13:00:55 +0000"
+
+
+
+
+
+
+}

@@ -10,8 +10,10 @@ function node(name) {
                                           } else if (arg instanceof Node) {
                                             self.appendChild(arg);
                                           } else if (typeof(arg) == "object") {
-                                            // TODO: map over the keys and add them as attributes
-                                            console.warn("ignoring attributes: ", arg);
+                                            Object.keys(arg)
+                                                  .forEach(function (k) {
+                                                             self.setAttribute(k, arg[k]);
+                                                           });
                                           } else {
                                             console.warn("ignoring bad argument to node constructor: ", arg);
                                           }
