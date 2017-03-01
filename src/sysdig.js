@@ -16,9 +16,8 @@ var model = { events: {},
                            body = tbody(Object.keys(model.events)
                                               .map(function (id) {
                                                      let ev = model.events[id];
-                                                     return tr(td(ev.id),
-                                                               // BUG: api docs don't specify a timezone, so I will punt
-                                                               td(new Date(parseInt(ev.timestamp, 10) * 1000).toString()),
+                                                     // BUG: api docs don't specify a timezone, so I will punt
+                                                     return tr(td(new Date(parseInt(ev.timestamp, 10) * 1000).toString()),
                                                                td(ev.severity),
                                                                td(ev.name),
                                                                td(Object.keys(ev.tags)
