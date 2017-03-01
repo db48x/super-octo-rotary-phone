@@ -1,0 +1,57 @@
+{
+
+
+
+
+
+
+    "assigned": "Daniel Brooks <db48x@db48x.net>", 
+
+
+
+
+
+
+    "creator": "Daniel Brooks <db48x@db48x.net>", 
+
+
+
+
+
+
+    "reporter": "Daniel Brooks <db48x@db48x.net>", 
+
+
+
+
+
+
+    "severity": "minor", 
+
+
+
+
+
+
+    "status": "assigned", 
+
+
+
+
+
+
+    "summary": "the api docs don't specify a timezone, so I guessed; check whether the guess is correct", 
+
+
+
+
+
+
+    "time": "Wed, 01 Mar 2017 09:35:06 +0000"
+
+
+
+
+
+
+}
