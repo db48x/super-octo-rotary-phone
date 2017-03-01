@@ -1,3 +1,6 @@
+// This is the simplest possible version of MVC. The parts aren't
+// composable, so you can't combine or reuse them, but it should be
+// sufficient for the current purpose.
 var model = { events: {},
               update: function model_update(response) {
                         let self = this;
