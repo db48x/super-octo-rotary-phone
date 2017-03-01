@@ -30,7 +30,10 @@ var model = { events: {},
                                                                              })),
                                                                td(ev.description));
                                                    }));
-                       Array.slice.call(self.table.tBodies, 0).forEach(function (n) { self.table.removeChild(n); });
+                       Array.prototype.slice.call(self.table.tBodies, 0)
+                            .forEach(function (n) {
+                                       self.table.removeChild(n);
+                                     });
                        self.table.appendChild(body);
                      }
            },
